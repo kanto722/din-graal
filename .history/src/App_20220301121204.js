@@ -4,7 +4,7 @@ import Header from './components/storybook/organisms/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header
       <main>
 
       </main>

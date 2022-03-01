@@ -1,16 +1,15 @@
 import './App.scss';
-import Header from './components/storybook/organisms/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <header>
+
+      </header>
       <main>
 
       </main>
-      <footer>
-
-      </footer>
+      <footer
     </div>
   );
 }
