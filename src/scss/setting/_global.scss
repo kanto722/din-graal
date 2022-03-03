@@ -2,13 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+    }
+  // font-family: 'Cinzel', serif;
+  // font-weight: 600;
+
+  // font-family: 'Manrope', sans-serif;
+  // font-weight: 400;
+  // font-weight: 600;
+
   body {
     display: flex;
     flex-direction: column;
     color: #000000;
     font-size: 16px;
     line-height: 155%;
+    background: #E5E5E5;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
   }
-  
+ .layout {
+   width: 100%;
+   max-width: 1380px;
+   margin: 0 auto;
+ }
+  .container {
+    padding: 0px 20px;
+  }
+  a {
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+  }
+  h1,h2,h3,h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+  }

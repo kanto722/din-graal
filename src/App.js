@@ -1,5 +1,5 @@
 import './App.scss';
-import Header from './components/storybook/organisms/Header';
+import Header from './components/storybook/organisms/Header/Header';
 
 function App() {
   return (

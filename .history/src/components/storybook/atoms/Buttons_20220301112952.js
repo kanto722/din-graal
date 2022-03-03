@@ -1,6 +1,0 @@
-
-function Buttons () => {
-    return (
-        
-    )
-}
