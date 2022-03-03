@@ -1,0 +1,43 @@
+@import '../../../../scss/style.scss';
+
+.header {
+    padding: 10px 0px;
+    background: $background-color-black;
+    
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
+.logo {
+
+    &__fix {
+        display: flex;
+        align-items: center;
+        img {
+
+        }
+        span {
+            margin-left: 10px;
+            font-family: 'Cinzel', serif;
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+}
+.navigation {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 10px;
+    }
+
+}
