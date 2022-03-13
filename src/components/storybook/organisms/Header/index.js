@@ -2,11 +2,10 @@ import HeaderContent from '../../molecules/HeaderContent';
 import './Header.scss';
 
 function Header() {
-    
     const data = [
-        {link: 'Link', id: 1},
-        {link: 'Link', id: 2},
-        {link: 'Link', id: 3},
+        {text: 'Link', id: 1},
+        {text: 'Link', id: 2},
+        {text: 'Link', id: 3},
     ]
 
     return(
