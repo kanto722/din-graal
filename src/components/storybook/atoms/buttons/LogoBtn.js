@@ -2,6 +2,7 @@ import './styles/LogoBtn.scss';
 
 const LogoBtn = ( props ) => {
     const {image, text} = props
+    
     return (
         
         <a className='logo__fix' href="/#">
