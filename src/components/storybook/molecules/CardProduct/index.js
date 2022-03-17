@@ -1,4 +1,4 @@
-import './styles/CardProduct.scss';
+import './index.scss';
 
 const CardProduct = ( props ) => {
     const { name, count, text, image, alt } = props

@@ -1,4 +1,4 @@
-import './styles/NavLink.scss';
+import './index.scss';
 
 
 const NavLink = ( props ) => {

@@ -1,4 +1,4 @@
-import FooterContent from '../../molecules/FooterContent';
+import FooterContent from '../../organisms/FooterContent';
 import './Footer.scss';
 
 function Footer() {

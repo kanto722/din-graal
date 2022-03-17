@@ -1,8 +1,8 @@
-import LogoBtn from '../atoms/buttons/LogoBtn';
-import NavLink from '../atoms/buttons/NavLink';
+import LogoBtn from '../../atoms/LogoButton';
+import NavLink from '../../atoms/NavLink';
 
-import Logo from '../../../assets/images/logo.png';
-import './StyleContent/HeaderContent.scss';
+import Logo from '../../../../assets/images/logo.png';
+import './index.scss';
 
 
 const HeaderContent = ({data}) => {
@@ -20,6 +20,8 @@ const HeaderContent = ({data}) => {
                 <LogoBtn 
                     text='Din Graal'
                     image={Logo}
+                    alt="img"
+                    link='/#'
                 />
             </div>
             <div className="navigation">

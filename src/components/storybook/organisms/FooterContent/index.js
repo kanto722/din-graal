@@ -1,4 +1,4 @@
-import NavLink from '../atoms/buttons/NavLink';
+import NavLink from '../../atoms/NavLink';
 
 
 const FooterContent = ({ data }) => {
