@@ -1,6 +1,8 @@
-import Logo from '../../../assets/images/logo.png';
+import LogoBtn from '../atoms/buttons/LogoBtn';
 import NavLink from '../atoms/buttons/NavLink';
 
+import Logo from '../../../assets/images/logo.png';
+import './StyleContent/HeaderContent.scss';
 
 
 const HeaderContent = ({data}) => {
@@ -11,13 +13,14 @@ const HeaderContent = ({data}) => {
         )
     })
     
+
     return (
         <div className='header-content'>
             <div className="logo">
-                <a className='logo__fix' href="#">
-                    <img src={Logo} width="65px"/>
-                    <span>Din Graal</span>
-                </a>
+                <LogoBtn 
+                    text='Din Graal'
+                    image={Logo}
+                />
             </div>
             <div className="navigation">
                 {items}

@@ -1,13 +1,8 @@
 import HeaderContent from '../../molecules/HeaderContent';
 import './Header.scss';
-
+import {data} from '../Mock/DataHeader';
 function Header() {
-    
-    const data = [
-        {link: 'Link', id: 1},
-        {link: 'Link', id: 2},
-        {link: 'Link', id: 3},
-    ]
+
 
     return(
         <header className="header">

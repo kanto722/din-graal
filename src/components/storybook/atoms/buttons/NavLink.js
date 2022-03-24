@@ -1,9 +1,11 @@
+import './styles/NavLink.scss';
+
 
 const NavLink = ( props ) => {
-    const { link } = props
+    const { text } = props
 
     return (
-        <a className='navigation__link' href="#">{link}</a>
+        <a className='navigation__link' href="/#">{text}</a>
     )
 }
 
