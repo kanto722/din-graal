@@ -1,4 +1,4 @@
-import PromoContent from '../../molecules/PromoContent';
+import PromoContent from '../../organisms/PromoContent';
 import './Main.scss';
 import {data} from '../Mock/DataCard';
 

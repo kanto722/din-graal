@@ -1,6 +1,6 @@
-import Header from './components/storybook/organisms/Header';
-import Main from './components/storybook/organisms/Main'
-import Footer from './components/storybook/organisms/Footer';
+import Header from './components/storybook/templates/Header';
+import Main from './components/storybook/templates/Main'
+import Footer from './components/storybook/templates/Footer';
 
 import './App.scss';
 
